@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ar" dir="ltl">
+
+<head>
+    {{> headerlink }}
+</head>
+
+<body>
+    <div>
+        {{> navbar }}
+    </div>
+    <section id="contact">
+        <h1 class="contact_us">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email:</label>
+                    <input type="email" name="name" id="name" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="name">Mobile:</label>
+                    <input type="number" name="name" id="name" placeholder="Enter Your Mobile">
+                </div>
+                <div class="form-group">
+                    <label for="name">Message:</label>
+                    <textarea name="message" id="massage" cols="15" rows="10"></textarea>
+                </div>
+                <button class="btna">Submit</button>
+            </form>
+        </div>
+
+    </section>
+
+
+    <footer>
+        {{>footer}}
+    </footer>
+
+</body>
+
+</html>
